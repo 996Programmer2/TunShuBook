@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_img"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        android:layout_centerInParent="true"/>
+
+    <FrameLayout
+        android:id="@+id/fl_skip_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dip"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txt_skip_ad"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/splash_ad_ignore_bg"
+            android:gravity="center"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:textColor="#ffffffff"
+            android:textSize="12.0sp"/>
+
+        <ImageView
+            android:id="@+id/splash_bg"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/loading"
+            android:visibility="invisible"/>
+    </FrameLayout>
+
+</RelativeLayout>

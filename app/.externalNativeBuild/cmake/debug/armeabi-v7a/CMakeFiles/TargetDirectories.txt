@@ -1,3 +1,0 @@
-E:/workspace/AndroidStudioProject/TunShuBook/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir
-E:/workspace/AndroidStudioProject/TunShuBook/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-E:/workspace/AndroidStudioProject/TunShuBook/app/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">豚鼠</string>
+
+    <string name="skip_ad">跳过广告</string>
+    <string name="press_again">再按一次退出</string>
+    <string name="tab_home_txt">鼠窝</string>
+    <string name="tab_community">社区</string>
+    <string name="tab_message">消息</string>
+    <string name="tab_me">我</string>
+</resources>
