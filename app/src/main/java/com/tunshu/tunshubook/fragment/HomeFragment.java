@@ -1,7 +1,7 @@
 package com.tunshu.tunshubook.fragment;
 
 import android.view.View;
-import android.widget.TextView;
+import android.widget.ImageView;
 
 import com.tunshu.tunshubook.R;
 
@@ -11,18 +11,18 @@ import com.tunshu.tunshubook.R;
 
 public class HomeFragment extends BaseFragment {
 
-    private TextView mSearch;
+    private ImageView mBookSearchBtn;
 
     @Override
     public View initLayout() {
         mRootView = View.inflate(mActivity, R.layout.fragment_home, null);
-        return null;
+        return mRootView;
     }
 
     @Override
     public void initView() {
-        mSearch = (TextView) mRootView.findViewById(R.id.search);
-        mSearch.setOnClickListener(new View.OnClickListener() {
+        mBookSearchBtn = (ImageView) mRootView.findViewById(R.id.book_search);
+        mBookSearchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

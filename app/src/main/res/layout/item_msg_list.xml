@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <com.tunshu.tunshubook.view.CircleImageView
+        android:id="@+id/msg_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        app:border_width="1dp"
+        app:border_color="@color/appBaseColor"/>
+
+    <TextView
+        android:id="@+id/msg_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="脱脱"
+        android:layout_toRightOf="@+id/msg_icon"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/msg_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5月20日 13:14"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/msg_name"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/msg_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗学妹在吗"
+        android:textSize="14sp"
+        android:layout_toRightOf="@+id/msg_icon"
+        android:layout_below="@+id/msg_name"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/msg_content"
+        android:layout_toRightOf="@+id/msg_icon"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>

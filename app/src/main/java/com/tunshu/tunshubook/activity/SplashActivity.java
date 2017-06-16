@@ -24,7 +24,7 @@ import rx.functions.Action0;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private final static int COUNT_DOWN_TIME = 5;
+    private final static int COUNT_DOWN_TIME = 3;
 
     private TextView     mTxtSkipAd;
     private Subscription mSubscription;
